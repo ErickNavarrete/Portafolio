@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBB1C251-D217-4FC7-AA3A-79D59666A320}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Auto_Conta_1._0.My.MyApplication</StartupObject>
+    <RootNamespace>Auto_Conta_1._0</RootNamespace>
+    <AssemblyName>Auto-Conta 1.0</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Auto-Conta 1.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Auto-Conta 1.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\..\Contago Egresos 2.0\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlBackup.1.0.1\lib\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FORMS\Bancos\scrNuevaCuenta.Designer.vb">
+      <DependentUpon>scrNuevaCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Bancos\scrNuevaCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Bancos\scrNuevoBanco.Designer.vb">
+      <DependentUpon>scrNuevoBanco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Bancos\scrNuevoBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Bancos\scrTransferencia.Designer.vb">
+      <DependentUpon>scrTransferencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Bancos\scrTransferencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Config\scrAltaImpuestos.Designer.vb">
+      <DependentUpon>scrAltaImpuestos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Config\scrAltaImpuestos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Config\scrAltaRFC.Designer.vb">
+      <DependentUpon>scrAltaRFC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Config\scrAltaRFC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\cuCuentaXCobrar.Designer.vb">
+      <DependentUpon>cuCuentaXCobrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\cuCuentaXCobrar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrEmpresas.Designer.vb">
+      <DependentUpon>scrEmpresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrEmpresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrIniciarsesion.Designer.vb">
+      <DependentUpon>scrIniciarsesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrIniciarsesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrUsuarios.Designer.vb">
+      <DependentUpon>scrUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrUsuariosEmpresas.Designer.vb">
+      <DependentUpon>scrUsuariosEmpresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Inicio\scrUsuariosEmpresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Cobros y Pagos\scrRealizaPago.Designer.vb">
+      <DependentUpon>scrRealizaPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Cobros y Pagos\scrRealizaPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Cobros y Pagos\scrVerPagos.Designer.vb">
+      <DependentUpon>scrVerPagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Cobros y Pagos\scrVerPagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Polizas\scrVerPoliza.Designer.vb">
+      <DependentUpon>scrVerPoliza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Polizas\scrVerPoliza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\scrAltaCatalogo.Designer.vb">
+      <DependentUpon>scrAltaCatalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\scrAltaCatalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\scrAlta_empresa.Designer.vb">
+      <DependentUpon>scrAlta_empresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\scrAlta_empresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\XML\scrCargaXML.Designer.vb">
+      <DependentUpon>scrCargaXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\XML\scrCargaXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos, Clases, Funciones\Class_datos.vb" />
+    <Compile Include="Modulos, Clases, Funciones\Class_delete.vb" />
+    <Compile Include="Modulos, Clases, Funciones\Class_insert.vb" />
+    <Compile Include="Modulos, Clases, Funciones\Class_update.vb" />
+    <Compile Include="Modulos, Clases, Funciones\Mod_Conecction.vb" />
+    <Compile Include="Modulos, Clases, Funciones\mod_polizas.vb" />
+    <Compile Include="Modulos, Clases, Funciones\mod_Rutinas_Globales.vb" />
+    <Compile Include="Modulos, Clases, Funciones\var_globales.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FORMS\scrPrincipal2.Designer.vb">
+      <DependentUpon>scrPrincipal2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\scrPrincipal2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FORMS\Bancos\scrNuevaCuenta.resx">
+      <DependentUpon>scrNuevaCuenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Bancos\scrNuevoBanco.resx">
+      <DependentUpon>scrNuevoBanco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Bancos\scrTransferencia.resx">
+      <DependentUpon>scrTransferencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Config\scrAltaImpuestos.resx">
+      <DependentUpon>scrAltaImpuestos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Config\scrAltaRFC.resx">
+      <DependentUpon>scrAltaRFC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\cuCuentaXCobrar.resx">
+      <DependentUpon>cuCuentaXCobrar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Inicio\scrEmpresas.resx">
+      <DependentUpon>scrEmpresas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Inicio\scrIniciarsesion.resx">
+      <DependentUpon>scrIniciarsesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Inicio\scrUsuarios.resx">
+      <DependentUpon>scrUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Inicio\scrUsuariosEmpresas.resx">
+      <DependentUpon>scrUsuariosEmpresas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Cobros y Pagos\scrRealizaPago.resx">
+      <DependentUpon>scrRealizaPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Cobros y Pagos\scrVerPagos.resx">
+      <DependentUpon>scrVerPagos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Polizas\scrVerPoliza.resx">
+      <DependentUpon>scrVerPoliza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\scrAltaCatalogo.resx">
+      <DependentUpon>scrAltaCatalogo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\scrAlta_empresa.resx">
+      <DependentUpon>scrAlta_empresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\XML\scrCargaXML.resx">
+      <DependentUpon>scrCargaXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\scrPrincipal2.resx">
+      <DependentUpon>scrPrincipal2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

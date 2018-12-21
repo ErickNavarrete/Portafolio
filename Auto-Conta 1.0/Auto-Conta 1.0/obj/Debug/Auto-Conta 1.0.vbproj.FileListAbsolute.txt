@@ -1,0 +1,34 @@
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrNuevaCuenta.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrNuevoBanco.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrAltaRFC.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrEmpresas.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrIniciarsesion.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrUsuarios.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrUsuariosEmpresas.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrAltaCatalogo.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrAlta_empresa.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrCargaXML.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.Resources.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrPrincipal2.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto-Conta 1.0.vbproj.GenerateResource.cache
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto-Conta 1.0.vbproj.CoreCompileInputs.cache
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\Auto-Conta 1.0.exe.config
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\Auto-Conta 1.0.exe
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\Auto-Conta 1.0.pdb
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\Auto-Conta 1.0.xml
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\MaterialSkin.dll
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\MySql.Data.dll
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\MySqlBackup.dll
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto-Conta 1.0.vbproj.CopyComplete
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto-Conta 1.0.exe
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto-Conta 1.0.xml
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto-Conta 1.0.pdb
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrAltaImpuestos.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrTransferencia.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrVerPoliza.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.cuCuentaXCobrar.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto-Conta 1.0.vbprojAssemblyReference.cache
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrVerPagos.resources
+C:\Users\Asus.DESKTOP-JBDH3N9\Documents\Visual\presupuestos1.1\Auto-Conta 1.0\Auto-Conta 1.0\obj\Debug\Auto_Conta_1._0.scrRealizaPago.resources

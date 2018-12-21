@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCb3" targetNamespace="http://tempuri.org/dsCb3.xsd" xmlns:mstns="http://tempuri.org/dsCb3.xsd" xmlns="http://tempuri.org/dsCb3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCb3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCb3" msprop:Generator_UserDSName="dsCb3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCodigoBarras" msprop:Generator_TableClassName="dtCodigoBarrasDataTable" msprop:Generator_TableVarName="tabledtCodigoBarras" msprop:Generator_RowChangedName="dtCodigoBarrasRowChanged" msprop:Generator_TablePropName="dtCodigoBarras" msprop:Generator_RowDeletingName="dtCodigoBarrasRowDeleting" msprop:Generator_RowChangingName="dtCodigoBarrasRowChanging" msprop:Generator_RowEvHandlerName="dtCodigoBarrasRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCodigoBarrasRowDeleted" msprop:Generator_RowClassName="dtCodigoBarrasRow" msprop:Generator_UserTableName="dtCodigoBarras" msprop:Generator_RowEvArgName="dtCodigoBarrasRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USUARIO" msdata:Caption="CLAVE" msprop:Generator_ColumnVarNameInTable="columnUSUARIO" msprop:Generator_ColumnPropNameInRow="USUARIO" msprop:Generator_ColumnPropNameInTable="USUARIOColumn" msprop:Generator_UserColumnName="USUARIO" type="xs:string" minOccurs="0" />
+              <xs:element name="USUARIO_CB" msdata:Caption="CODIGO" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_CB" msprop:Generator_ColumnPropNameInRow="USUARIO_CB" msprop:Generator_ColumnPropNameInTable="USUARIO_CBColumn" msprop:Generator_UserColumnName="USUARIO_CB" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="CONTRA" msprop:Generator_ColumnVarNameInTable="columnCONTRA" msprop:Generator_ColumnPropNameInRow="CONTRA" msprop:Generator_ColumnPropNameInTable="CONTRAColumn" msprop:Generator_UserColumnName="CONTRA" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRA_CB" msprop:Generator_ColumnVarNameInTable="columnCONTRA_CB" msprop:Generator_ColumnPropNameInRow="CONTRA_CB" msprop:Generator_ColumnPropNameInTable="CONTRA_CBColumn" msprop:Generator_UserColumnName="CONTRA_CB" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PROGRAMA" msprop:Generator_ColumnVarNameInTable="columnPROGRAMA" msprop:Generator_ColumnPropNameInRow="PROGRAMA" msprop:Generator_ColumnPropNameInTable="PROGRAMAColumn" msprop:Generator_UserColumnName="PROGRAMA" type="xs:string" minOccurs="0" />
+              <xs:element name="PROGRAMA_CB" msprop:Generator_ColumnVarNameInTable="columnPROGRAMA_CB" msprop:Generator_ColumnPropNameInRow="PROGRAMA_CB" msprop:Generator_ColumnPropNameInTable="PROGRAMA_CBColumn" msprop:Generator_UserColumnName="PROGRAMA_CB" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

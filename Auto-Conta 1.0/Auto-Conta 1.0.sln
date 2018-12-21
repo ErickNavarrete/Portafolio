@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Auto-Conta 1.0", "Auto-Conta 1.0\Auto-Conta 1.0.vbproj", "{FBB1C251-D217-4FC7-AA3A-79D59666A320}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Auto-Conta", "Auto-Conta\Auto-Conta.vdproj", "{FCEDA6DB-4485-4A8C-890A-DB14DF336385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB1C251-D217-4FC7-AA3A-79D59666A320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB1C251-D217-4FC7-AA3A-79D59666A320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB1C251-D217-4FC7-AA3A-79D59666A320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB1C251-D217-4FC7-AA3A-79D59666A320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEDA6DB-4485-4A8C-890A-DB14DF336385}.Debug|Any CPU.ActiveCfg = Debug
+		{FCEDA6DB-4485-4A8C-890A-DB14DF336385}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {086388A5-47E4-4191-86CA-4913EA93A08C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cesar310591.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Auto-Conta\u00201.0\\Auto-Conta\u00201.0.vbproj
+		SccProjectName1 = Auto-Conta\u00201.0
+		SccLocalPath1 = Auto-Conta\u00201.0
+		SccProjectUniqueName2 = Auto-Conta\\Auto-Conta.vdproj
+		SccProjectName2 = Auto-Conta
+		SccLocalPath2 = Auto-Conta
+	EndGlobalSection
+EndGlobal

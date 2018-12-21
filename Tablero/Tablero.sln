@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tablero", "Tablero\Tablero.vbproj", "{960E0BB0-87E7-44F1-B845-5FFE2F72FE38}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{06EDF32C-0658-4A80-9C60-750A6BBA4571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{960E0BB0-87E7-44F1-B845-5FFE2F72FE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960E0BB0-87E7-44F1-B845-5FFE2F72FE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960E0BB0-87E7-44F1-B845-5FFE2F72FE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960E0BB0-87E7-44F1-B845-5FFE2F72FE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EDF32C-0658-4A80-9C60-750A6BBA4571}.Debug|Any CPU.ActiveCfg = Debug
+		{06EDF32C-0658-4A80-9C60-750A6BBA4571}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBCC8C5A-BCBA-4838-A6B3-44F101319AA3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cesar310591.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tablero\\Tablero.vbproj
+		SccProjectName1 = Tablero
+		SccLocalPath1 = Tablero
+		SccProjectUniqueName2 = Setup1\\Setup1.vdproj
+		SccProjectName2 = Setup1
+		SccLocalPath2 = Setup1
+	EndGlobalSection
+EndGlobal
